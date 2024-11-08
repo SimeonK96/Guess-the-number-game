@@ -68,7 +68,7 @@ function game() {
         // If the user cancels the prompt (guess is null), end the game
         if (guess === null) {
             console.log("Game canceled by player.");
-            break;
+            return;
         }
 
         // Increment the attempt counter
