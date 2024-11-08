@@ -93,7 +93,7 @@ function game() {
         console.log(`Your score is: ${score}`);
         //*************************************
     } else {
-        console.log(`Game over! You've used all ${maxAttempts} attempts. The correct number was ${correctNumber}.`);
+        console.log(`Game over! You've used all ${maxAttempts} attempts and now you lose! Mwahahahaha.... The correct number was ${correctNumber}.`);
         //bonus
         console.log("Your score is: 0"); // No points if they didn't guess the number
         //*******************************

@@ -4,7 +4,7 @@ Javascript Project
 
 ## URL
 
-Live Demo: https://simeonk96.github.io/js-project/
+Live Demo: https://simeonk96.github.io/Guess-the-number-game/
 
 ## Authors
 
