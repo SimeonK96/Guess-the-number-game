@@ -7,12 +7,9 @@ function getPlayerGuess(){
 
     while(input !== null){
 
-        if(!Number.isInteger(+input)){
+        if(!Number.isInteger(+input) || input.trim().length === 0){
             alert("Your input is invalid!");
             input = prompt("Please enter a number!", "");
-        }else if(input.trim().length === 0){
-            alert("Your input is invalid!");
-            input = prompt("Please enter a number", "");
         } else{
             return +input;
         }
