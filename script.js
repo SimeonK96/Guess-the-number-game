@@ -3,13 +3,13 @@ function generateRandomNumber(){
 }
 
 function getPlayerGuess(){
-    let input = prompt("Please enter a number", "");
+    let input = prompt("Please enter a number between 1 and 100!", "");
 
     while(input !== null){
 
         if(!Number.isInteger(+input) || input.trim().length === 0){
             alert("Your input is invalid!");
-            input = prompt("Please enter a number!", "");
+            input = prompt("Please enter a number between 1 and 100!", "");
         } else{
             return +input;
         }
@@ -40,7 +40,7 @@ function game() {
     const maxAttempts = 10;
     let playerWon = false;
 
-    console.log("Welcome to the number guessing game!");
+    alert("Welcome to the number guessing game!");
 
     while (attempts < maxAttempts) {
         let guess = getPlayerGuess();
